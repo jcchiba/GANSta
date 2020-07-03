@@ -1,0 +1,605 @@
+CalculatorWindow{
+  background: #555555;
+}
+
+CalculatorWindow Qlabel{
+  background: #474747;
+}
+
+CalculatorWindow Qlabel#lb4{
+  background: #474747;
+
+}
+
+QDMNodeContentWidget {
+  background: transparent;
+}
+QDMNodeContentWidget QFrame {
+  background: transparent;
+}
+QDMNodeContentWidget QTextEdit,
+QDMNodeContentWidget QLineEdit {
+  background: #666;
+  color: #fff;
+}
+QDMNodeContentWidget QLabel {
+  color: #fff;
+}
+QDMNodeContentWidget QLabel#calc_node_bg,
+QDMNodeContentWidget QLabel#calc_node_mul,
+QDMNodeContentWidget QLabel#calc_node_div {
+  background: transparent;
+  height: 0px;
+  color: #373737;
+  font-size: 72px;
+  max-height: 49px;
+  min-height: 49px;
+  padding-left: 94px;
+}
+QDMNodeContentWidget QLabel#calc_node_mul,
+QDMNodeContentWidget QLabel#calc_node_div {
+  padding-top: 12px;
+}
+QDMNodeContentWidget QLabel#calc_node_output {
+  min-width: 150px;
+  max-width: 150px;
+  min-height: 45px;
+  max-height: 45px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 28px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_input {
+  width: 140px;
+  height: 36px;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 28px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_inputlb {
+  width: 300px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+QDMNodeContentWidget QPushButton#calc_node_inputpath {
+  width: 300px;
+  height: 35px;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_inputlb2 {
+  width: 300px;
+  height: 35px;
+  margin-top: 90px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_inputedit {
+  width: 296px;
+  height: 35px;
+  margin-top: 120px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+
+QDMNodeContentWidget QLabel#calc_node_imglb1 {
+  width: 300px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+QDMNodeContentWidget QLineEdit#calc_node_imgedit1 {
+  width: 296px;
+  height: 35px;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_imglb2 {
+  width: 300px;
+  height: 35px;
+  margin-top: 90px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_imgedit2 {
+  width: 296px;
+  height: 35px;
+  margin-top: 120px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_imglb3 {
+  width: 300px;
+  height: 35px;
+  margin-top: 170px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_imgedit3 {
+  width: 296px;
+  height: 35px;
+  margin-top: 200px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_imglb4 {
+  width: 300px;
+  height: 35px;
+  margin-top: 250px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_imgedit4 {
+  width: 296px;
+  height: 35px;
+  margin-top: 280px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_imglb5 {
+  width: 300px;
+  height: 35px;
+  margin-top: 330px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QCheckBox#calc_node_imgedit5 {
+  width: 300px;
+  height: 35px;
+  margin-top: 350px;
+  margin-left: 10px;
+  font-size: 14px;
+  color:#fff;
+}
+
+
+QDMNodeContentWidget QLabel#calc_node_modelb {
+  width: 100px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QCheckBox#calc_node_modeedit1 {
+  width: 100px;
+  height: 35px;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 14px;
+  color:#fff;
+}
+
+QDMNodeContentWidget QCheckBox#calc_node_modeedit2 {
+  width: 100px;
+  height: 35px;
+  margin-top: 60px;
+  margin-left: 10px;
+  font-size: 14px;
+  color:#fff;
+}
+
+
+QDMNodeContentWidget QLabel#calc_node_gpulb {
+  width: 100px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLineEdit#calc_node_gpuedit1 {
+  width: 90px;
+  height: 35px;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+  color:#fff;
+}
+
+
+QDMNodeContentWidget QLabel#calc_node_batchlb1 {
+  width: 90px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+QDMNodeContentWidget QLineEdit#calc_node_batchedit1 {
+  width: 90px;
+  height: 35px;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_batchlb2 {
+  width: 90px;
+  height: 35px;
+  margin-top: 90px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_batchedit2 {
+  width: 90px;
+  height: 35px;
+  margin-top: 120px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+
+QDMNodeContentWidget QLabel#calc_node_dimlb1 {
+  width: 90px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+QDMNodeContentWidget QLineEdit#calc_node_dimedit1 {
+  width: 90px;
+  height: 35px;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_dimlb2 {
+  width: 90px;
+  height: 35px;
+  margin-top: 90px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_dimedit2 {
+  width: 90px;
+  height: 35px;
+  margin-top: 120px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_actlb {
+  width: 100px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QPushButton#calc_node_actedit1 {
+  width: 100px;
+  height: 35px;
+  margin-top: 35px;
+  margin-left: 10px;
+  font-size: 14px;
+  color:#fff;
+}
+
+QDMNodeContentWidget QPushButton#calc_node_actedit2 {
+  width: 100px;
+  height: 35px;
+  margin-top: 75px;
+  margin-left: 10px;
+  font-size: 14px;
+  color:#fff;
+}
+
+QDMNodeContentWidget QProgressBar#calc_node_actedit3 {
+  width: 70px;
+  height: 15px;
+  padding-top:20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  font-size: 14px;
+  color:#fff;
+  background: transparent;
+}
+
+
+
+QDMNodeContentWidget QLabel#calc_node_outlb {
+  width: 300px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+QDMNodeContentWidget QPushButton#calc_node_outpath {
+  width: 300px;
+  height: 35px;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_outlb2 {
+  width: 300px;
+  height: 35px;
+  margin-top: 90px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_outedit {
+  width: 296px;
+  height: 35px;
+  margin-top: 120px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_outlb3 {
+  width: 300px;
+  height: 35px;
+  margin-top: 175px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_outlb4 {
+  width: 256px;
+  height: 256px;
+  margin-top: 205px;
+  margin-left: 32px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QPushButton#calc_node_outedit2 {
+  width: 296px;
+  height: 35px;
+  margin-top: 480px;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+
+
+QDMNodeContentWidget QLabel#calc_node_ganlb1 {
+  width: 300px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+QDMNodeContentWidget QComboBox#calc_node_ganedit1 {
+  width: 270px;
+  height: 25px;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+  background: #fff;
+  padding-left:10px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb2 {
+  width: 300px;
+  height: 35px;
+  margin-top: 90px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_ganedit2 {
+  width: 296px;
+  height: 35px;
+  margin-top: 120px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb3 {
+  width: 300px;
+  height: 35px;
+  margin-top: 170px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_ganedit3 {
+  width: 296px;
+  height: 35px;
+  margin-top: 200px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb4 {
+  width: 300px;
+  height: 35px;
+  margin-top: 250px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_ganedit4 {
+  width: 296px;
+  height: 35px;
+  margin-top: 280px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb5 {
+  width: 300px;
+  height: 35px;
+  margin-top: 330px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+QDMNodeContentWidget QLineEdit#calc_node_ganedit5 {
+  width: 296px;
+  height: 35px;
+  margin-top: 360px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb6 {
+  width: 300px;
+  height: 35px;
+  margin-top: 410px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLineEdit#calc_node_ganedit6 {
+  width: 296px;
+  height: 35px;
+  margin-top: 440px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb7 {
+  width: 300px;
+  height: 35px;
+  margin-top: 490px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLineEdit#calc_node_ganedit7 {
+  width: 296px;
+  height: 35px;
+  margin-top: 520px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb8 {
+  width: 300px;
+  height: 35px;
+  margin-top: 570px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLineEdit#calc_node_ganedit8 {
+  width: 296px;
+  height: 35px;
+  margin-top: 600px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb9 {
+  width: 300px;
+  height: 35px;
+  margin-top: 650px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLineEdit#calc_node_ganedit9 {
+  width: 296px;
+  height: 35px;
+  margin-top: 680px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+
+
+QDMNodeContentWidget QLabel#calc_node_ganlb10 {
+  width: 300px;
+  height: 35px;
+  margin-top: 730px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLineEdit#calc_node_ganedit10 {
+  width: 296px;
+  height: 35px;
+  margin-top: 760px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb11 {
+  width: 300px;
+  height: 35px;
+  margin-top: 810px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLineEdit#calc_node_ganedit11 {
+  width: 296px;
+  height: 35px;
+  margin-top: 840px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb12 {
+  width: 300px;
+  height: 35px;
+  margin-top: 890px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLineEdit#calc_node_ganedit12 {
+  width: 296px;
+  height: 35px;
+  margin-top: 910px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLabel#calc_node_ganlb13 {
+  width: 300px;
+  height: 35px;
+  margin-top: 960px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLineEdit#calc_node_ganedit13 {
+  width: 296px;
+  height: 35px;
+  margin-top: 990px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+
+QDMNodeContentWidget QLabel#calc_node_ganlb14 {
+  width: 300px;
+  height: 35px;
+  margin-top: 1010px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+QDMNodeContentWidget QLineEdit#calc_node_ganedit14 {
+  width: 296px;
+  height: 35px;
+  margin-top: 1060px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+
+
+
+
+QGraphicsView {
+  selection-background-color: #fff;
+}
