@@ -1,6 +1,8 @@
 # GANSta
 
-GAN Station. A Node based Generative Adversarial Network tool.
+GAN Station. A Node based Generative Adversarial Network tool. [![DOI](https://zenodo.org/badge/276889604.svg)](https://zenodo.org/badge/latestdoi/276889604)
+
+
 
   - Drag and drop node based interface.
   - Prepared for ease of use.
