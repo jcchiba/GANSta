@@ -11,7 +11,7 @@ kthread==0.2.2
 Markdown==3.2.1
 mock==4.0.2
 opencv-python==4.0.1.24
-protobuf==3.11.3
+protobuf==3.18.3
 PyQt5==5.14.2
 PyQt5-sip==12.7.2
 python-minifier==2.3.1
